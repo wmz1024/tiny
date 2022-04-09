@@ -38,7 +38,9 @@ const handle = async(req)=>{
 }
 
 console.log("%c  ____  __    __   ____  _      ____  ____   __ __ \n /    ||  |__|  | /    || |    |    ||    \ |  |  |\n|  o  ||  |  |  ||  o  || |     |  | |  _  ||  |  |\n|     ||  |  |  ||     || |___  |  | |  |  ||  ~  |\n|  _  ||  `  '  ||  _  ||     | |  | |  |  ||___, |\n|  |  | \      / |  |  ||     | |  | |  |  ||     |\n|__|__|  \_/\_/  |__|__||_____||____||__|__||____/ \n",'color:#0f0;');
-console.log("%c盲生你发现了华点 你找到了一处彩蛋( •̀ ω •́ )y",'')
+console.log("%c盲生你发现了华点 你找到了一处彩蛋( •̀ ω •́ )y",'color: 	#00FA9A;')
+console.log("\n%c想帮助我们 或者出现Bug时 请联系我们 i@wmza.cn",'color: 	#DC143C;')
+
 
 document.cookie = "caidan=U found a painted egg (❁´◡`❁) Report quickly";
 
