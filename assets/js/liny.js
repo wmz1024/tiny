@@ -1,6 +1,4 @@
 // from http://patorjk.com/software/taag/ 
-console.log("%c  ____  __    __   ____  _      ____  ____   __ __ \n /    ||  |__|  | /    || |    |    ||    \ |  |  |\n|  o  ||  |  |  ||  o  || |     |  | |  _  ||  |  |\n|     ||  |  |  ||     || |___  |  | |  |  ||  ~  |\n|  _  ||  `  '  ||  _  ||     | |  | |  |  ||___, |\n|  |  | \      / |  |  ||     | |  | |  |  ||     |\n|__|__|  \_/\_/  |__|__||_____||____||__|__||____/ \n",'color:#0f0;');
-
 
 
 window.addEventListener('load', async () => {
@@ -38,5 +36,12 @@ self.addEventListener('fetch', async event => {
 const handle = async(req)=>{
     //do something
 }
+
+console.log("%c  ____  __    __   ____  _      ____  ____   __ __ \n /    ||  |__|  | /    || |    |    ||    \ |  |  |\n|  o  ||  |  |  ||  o  || |     |  | |  _  ||  |  |\n|     ||  |  |  ||     || |___  |  | |  |  ||  ~  |\n|  _  ||  `  '  ||  _  ||     | |  | |  |  ||___, |\n|  |  | \      / |  |  ||     | |  | |  |  ||     |\n|__|__|  \_/\_/  |__|__||_____||____||__|__||____/ \n",'color:#0f0;');
+console.log("%c盲生你发现了华点 你找到了一处彩蛋( •̀ ω •́ )y",'')
+
+document.cookie = "caidan=U found a painted egg (❁´◡`❁) Report quickly";
+
+
 
 
