@@ -15,6 +15,7 @@ console.log("\n%c最新消息 有一个项目需要内测 请联系 i@w03.cc",'c
 
 
 document.cookie = "caidan=U found a painted egg (❁´◡`❁) Report quickly";
+document.cookie = "114514=你看到控制台的114514了罢（确信）";
 
 
 
