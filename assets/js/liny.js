@@ -8,15 +8,6 @@ const CACHE_NAME='ICDNCache';let cachelist=["/images",'/assets','/css'];self.add
 self.addEventListener('fetch', async event => {
     event.respondWith(handle(event.request))
 });
-const handle = async(req)=>{
-    //do something
-}
-console.log("愿现在的景象都好",'color: 	#DC143C;')
-
-
-document.cookie = "caidan=U found a painted egg (❁´◡`❁) Report quickly";
-document.cookie = "114514=你看到控制台的114514了罢（确信）";
-
 const handle = async (req) => {
     return fetch(req.url).then(function (res) {
         if (!res) { throw 'error' } //1
@@ -31,6 +22,12 @@ const handle = async (req) => {
         })
     })
 }
+console.log("愿现在的景象都好",'color: 	#DC143C;')
+
+
+document.cookie = "caidan=U found a painted egg (❁´◡`❁) Report quickly";
+document.cookie = "114514=你看到控制台的114514了罢（确信）";
+
 
 
 
