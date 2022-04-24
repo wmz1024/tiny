@@ -22,7 +22,7 @@ const handle = async (req) => {
         })
     })
 }
-console.log("愿现在的景象都好",'color: 	#DC143C;')
+console.log("%c愿现在的景象都好",'color: 	#DC143C;')
 
 
 document.cookie = "caidan=U found a painted egg (❁´◡`❁) Report quickly";
