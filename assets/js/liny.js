@@ -8,24 +8,10 @@ const CACHE_NAME='ICDNCache';let cachelist=["/images",'/assets','/css'];self.add
 self.addEventListener('fetch', async event => {
     event.respondWith(handle(event.request))
 });
-const handle = async (req) => {
-    return fetch(req.url).then(function (res) {
-        if (!res) { throw 'error' } //1
-        return caches.open(CACHE_NAME).then(function (cache) {
-            cache.delete(req);
-            cache.put(req, res.clone());
-            return res;
-        });
-    }).catch(function (err) {
-        return caches.match(req).then(function (resp) {
-            return resp || caches.match(new Request('/offline.html')) //2
-        })
-    })
-}
-console.log("%c愿现在的景象都好",'color: 	#DC143C;')
+const handle=async(req)=>{return fetch(req.url).then(function(b){if(!b){throw'error'}return caches.open(CACHE_NAME).then(function(a){a.delete(req);a.put(req,b.clone());return b})}).catch(function(b){return caches.match(req).then(function(a){return a||caches.match(new Request('/offline.html'))})})}
 
 
-document.cookie = "caidan=U found a painted egg (❁´◡`❁) Report quickly";
+console.log("%c愿现在的景象都好",'color: 	#DC143C;');document.cookie = "caidan=U found a painted egg (❁´◡`❁) Report quickly";
 document.cookie = "114514=你看到控制台的114514了罢（确信）";
 
 
