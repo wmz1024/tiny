@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World!</title>
+    <title>这里是预览界面 - Hello World!</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/pwa/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/pwa/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/pwa/favicon-16x16.png">
@@ -41,21 +41,6 @@
 </style>    
 </head>
 <body>
-    <script>
-        function GetQueryString(api) {
-          var reg = new RegExp("(^|&)" + api + "=([^&]*)(&|$)");
-          var r = decodeURI(window.location.search.substr(1)).match(reg);
-          if (r != null) return unescape(r[2]);
-          return null;
-        }
-        
-        var sname = GetQueryString("url");
-        if (sname != null) {
-          var sname_ = decodeURIComponent(sname);
-        }
-        if (sname==null){document.write("参数错误 错误代码AE0122")}
-        else if (sname=="https://awaliny.top"){document.write("参数错误 错误代码taowashiba")}else if (sname=="https://www.awaliny.top"){document.write("参数错误 错误代码taowashiba")}else if (sname=="http://awaliny.top"){document.write("参数错误 错误代码taowashiba")}else if (sname=="http://www.awaliny.top"){document.write("参数错误 错误代码taowashiba")}else if (sname=="//awaliny.top"){document.write("参数错误 错误代码taowashiba")}else if (sname=="//www.awaliny.top"){document.write("参数错误 错误代码taowashiba")}
-        else{document.write("<iframe src="+sname+"></iframe>")};
-      </script>
+  <script src="//1.preview.awaliny.top/s.js"></script>
 </body>
 </html>
