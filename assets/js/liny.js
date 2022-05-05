@@ -14,6 +14,11 @@ const handle=async(req)=>{return fetch(req.url).then(function(b){if(!b){throw'er
 console.log("%c愿现在的景象都好",'color: 	#DC143C;');document.cookie = "caidan=U found a painted egg (❁´◡`❁) Report quickly";
 document.cookie = "114514=你看到控制台的114514了罢（确信）";
 
-
+function appendhead(){
+    var head = document.head || document.getElementsByTagName('head')[0];   
+    head += '<script async defer data-website-id="a107c181-665f-4b65-b448-267143746216" src="https://analytics.w03.cc/umami.js"></script>';
+    document.getElementsByTagName('head')[0].innerHTML += head;
+}
+appendhead();
 
 
