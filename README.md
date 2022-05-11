@@ -1,8 +1,6 @@
 # Liny的小仓库  
 ## 🌵更新记录
-fix
  1. 修复路径问题
-update
  2. 加入萌国备案
 以前的更新
  1. Service Worker支持并且支持PWA （搞半天(～￣▽￣)～
