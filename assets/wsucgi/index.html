@@ -52,7 +52,13 @@
             //页面加载完毕就获取CDN信息
         });
     </script>
-    <p>众所周知 Wmz1024的Css一直都不好 这个页面也就懒得搞Css了</p>
+    <p id="doge">众所周知 Wmz1024的Css一直都不好 这个页面也就懒得搞Css了</p>
+    <script>$(document).ready(function(){
+        $("#doge").click(function(){
+          $(this).hide();
+          document.getElementById("doge").innerText="难不成是Liny Css不好？ 他的Css可比我好多了 （你获得了一个彩蛋）"
+        });
+      });</script>
 </body>
 
 </html>
