@@ -1,4 +1,4 @@
-console.log("%c  ____  __    __   ____  _      ____  ____   __ __ \n /    ||  |__|  | /    || |    |    ||    \ |  |  |\n|  o  ||  |  |  ||  o  || |     |  | |  _  ||  |  |\n|     ||  |  |  ||     || |___  |  | |  |  ||  ~  |\n|  _  ||  `  '  ||  _  ||     | |  | |  |  ||___, |\n|  |  | \      / |  |  ||     | |  | |  |  ||     |\n|__|__|  \_/\_/  |__|__||_____||____||__|__||____/ \n",'color:#0f0;');console.log("%c有朋自远方来，不亦乐乎 ————《论语》",'color: 	#00FA9A;')
+window.$crisp=[];window.CRISP_WEBSITE_ID="24cd6516-d00c-4c67-9779-a54ec171d582";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();;console.log("%c  ____  __    __   ____  _      ____  ____   __ __ \n /    ||  |__|  | /    || |    |    ||    \ |  |  |\n|  o  ||  |  |  ||  o  || |     |  | |  _  ||  |  |\n|     ||  |  |  ||     || |___  |  | |  |  ||  ~  |\n|  _  ||  `  '  ||  _  ||     | |  | |  |  ||___, |\n|  |  | \      / |  |  ||     | |  | |  |  ||     |\n|__|__|  \_/\_/  |__|__||_____||____||__|__||____/ \n",'color:#0f0;');console.log("%c有朋自远方来，不亦乐乎 ————《论语》",'color: 	#00FA9A;')
 // from http://patorjk.com/software/taag/ 
 
 console.log("%c盲生你发现了华点 你找到了一处彩蛋( •̀ ω •́ )y",'color: 	#00FA9A;')
@@ -9,7 +9,7 @@ self.addEventListener('fetch', async event => {
     event.respondWith(handle(event.request))
 });
 const handle=async(req)=>{return fetch(req.url).then(function(b){if(!b){throw'error'}return caches.open(CACHE_NAME).then(function(a){a.delete(req);a.put(req,b.clone());return b})}).catch(function(b){return caches.match(req).then(function(a){return a||caches.match(new Request('/offline.html'))})})}
-window.$crisp=[];window.CRISP_WEBSITE_ID="24cd6516-d00c-4c67-9779-a54ec171d582";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+
 
 console.log("%c控制台最近会更新的哦哦哦",'color: 	#DC143C;');document.cookie = "caidan=U found a painted egg (❁´◡`❁) Report quickly";
 document.cookie = "114514=你看到控制台的114514了罢（确信）";
